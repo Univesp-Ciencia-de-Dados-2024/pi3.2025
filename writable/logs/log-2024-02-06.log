@@ -1,0 +1,1214 @@
+INFO - 2024-02-06 02:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 02:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 02:56:48 --> Attempt to read property "login_id" on null
+in APPPATH\Modules\Admin\Models\LoginModel.php on line 25.
+ 1 APPPATH\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "login_id" on null', 'C:\\wamp64\\www\\modelo\\app\\Modules\\Admin\\Models\\LoginModel.php', 25)
+ 2 APPPATH\Modules\Admin\Controllers\Dashboard.php(43): App\Modules\Admin\Models\LoginModel->login('josue', '123')
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->login()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 02:56:48 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "login_id" on null
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\m...', 25)
+#1 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Dashboard.php(43): App\Modules\Admin\Models\LoginModel->login('josue', '123')
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->login()
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+#4 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 02:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 02:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 02:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 02:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:16:51 --> Call to undefined function App\Modules\Admin\Controllers\teste()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:16:51 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\teste()
+#0 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:18:19 --> Call to undefined function App\Modules\Admin\Controllers\teste()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:18:19 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\teste()
+#0 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:22:28 --> Call to undefined function App\Modules\Admin\Controllers\teste()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:22:28 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\teste()
+#0 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:22:30 --> Call to undefined function App\Modules\Admin\Controllers\teste()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:22:30 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\teste()
+#0 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:22:31 --> Call to undefined function App\Modules\Admin\Controllers\teste()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:22:31 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\teste()
+#0 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:24:41 --> Call to undefined function App\Modules\Admin\Controllers\teste()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:24:41 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\teste()
+#0 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:24:43 --> Call to undefined function App\Modules\Admin\Controllers\teste()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:24:43 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\teste()
+#0 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:26:19 --> Call to undefined function App\Modules\Admin\Controllers\teste()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:26:19 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\teste()
+#0 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:26:20 --> Call to undefined function App\Modules\Admin\Controllers\teste()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:26:20 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\teste()
+#0 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:27:17 --> Call to undefined method App\Modules\Admin\Controllers\Dashboard::teste()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:27:17 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined method App\Modules\Admin\Controllers\Dashboard::teste()
+#0 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:34:51 --> Attempt to read property "login_id" on null
+in APPPATH\Modules\Admin\Models\LoginModel.php on line 25.
+ 1 APPPATH\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "login_id" on null', 'C:\\wamp64\\www\\modelo\\app\\Modules\\Admin\\Models\\LoginModel.php', 25)
+ 2 APPPATH\Modules\Admin\Controllers\Dashboard.php(45): App\Modules\Admin\Models\LoginModel->login('admin', 'admin')
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->login()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:34:51 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "login_id" on null
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\m...', 25)
+#1 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Dashboard.php(45): App\Modules\Admin\Models\LoginModel->login('admin', 'admin')
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->login()
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+#4 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:36:00 --> Attempt to read property "login_id" on null
+in APPPATH\Modules\Admin\Models\LoginModel.php on line 25.
+ 1 APPPATH\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "login_id" on null', 'C:\\wamp64\\www\\modelo\\app\\Modules\\Admin\\Models\\LoginModel.php', 25)
+ 2 APPPATH\Modules\Admin\Controllers\Dashboard.php(45): App\Modules\Admin\Models\LoginModel->login('admin', 'admin')
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->login()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:36:00 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "login_id" on null
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\m...', 25)
+#1 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Dashboard.php(45): App\Modules\Admin\Models\LoginModel->login('admin', 'admin')
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->login()
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+#4 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:36:40 --> Attempt to read property "login_id" on null
+in APPPATH\Modules\Admin\Models\LoginModel.php on line 25.
+ 1 APPPATH\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "login_id" on null', 'C:\\wamp64\\www\\modelo\\app\\Modules\\Admin\\Models\\LoginModel.php', 25)
+ 2 APPPATH\Modules\Admin\Controllers\Dashboard.php(45): App\Modules\Admin\Models\LoginModel->login('admin', 'admin')
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->login()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:36:40 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "login_id" on null
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\m...', 25)
+#1 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Dashboard.php(45): App\Modules\Admin\Models\LoginModel->login('admin', 'admin')
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->login()
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+#4 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:38:31 --> Attempt to read property "login_id" on null
+in APPPATH\Modules\Admin\Models\LoginModel.php on line 25.
+ 1 APPPATH\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "login_id" on null', 'C:\\wamp64\\www\\modelo\\app\\Modules\\Admin\\Models\\LoginModel.php', 25)
+ 2 APPPATH\Modules\Admin\Controllers\Dashboard.php(44): App\Modules\Admin\Models\LoginModel->login('admin', '123')
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->login()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:38:31 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "login_id" on null
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\m...', 25)
+#1 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Dashboard.php(44): App\Modules\Admin\Models\LoginModel->login('admin', '123')
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->login()
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+#4 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:39:53 --> Call to undefined function App\Modules\Admin\Controllers\isLogged()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:39:53 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\isLogged()
+#0 C:\wamp64\www\modelo\system\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-06 03:39:58 --> Call to undefined function App\Modules\Admin\Controllers\isLogged()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:39:58 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\isLogged()
+#0 C:\wamp64\www\modelo\system\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-06 03:42:30 --> Call to undefined function App\Modules\Admin\Controllers\isLogged()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:42:30 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\isLogged()
+#0 C:\wamp64\www\modelo\system\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-06 03:42:32 --> Call to undefined function App\Modules\Admin\Controllers\isLogged()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:42:32 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\isLogged()
+#0 C:\wamp64\www\modelo\system\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-06 03:43:00 --> Call to undefined function App\Modules\Admin\Controllers\isLogged()
+in APPPATH\Modules\Admin\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Modules\Admin\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:43:00 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\isLogged()
+#0 C:\wamp64\www\modelo\system\CodeIgniter.php(887): App\Modules\Admin\Controllers\Login->__construct()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-06 03:43:02 --> Call to undefined function App\Modules\Admin\Controllers\isLogged()
+in APPPATH\Modules\Admin\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Modules\Admin\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:43:02 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\isLogged()
+#0 C:\wamp64\www\modelo\system\CodeIgniter.php(887): App\Modules\Admin\Controllers\Login->__construct()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:43:49 --> Attempt to read property "username" on null
+in APPPATH\Modules\Admin\Controllers\Login.php on line 31.
+ 1 APPPATH\Modules\Admin\Controllers\Login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'C:\\wamp64\\www\\modelo\\app\\Modules\\Admin\\Controllers\\Login.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:43:49 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "username" on null
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\m...', 31)
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->index()
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:44:49 --> Attempt to read property "username" on null
+in APPPATH\Modules\Admin\Controllers\Login.php on line 31.
+ 1 APPPATH\Modules\Admin\Controllers\Login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'C:\\wamp64\\www\\modelo\\app\\Modules\\Admin\\Controllers\\Login.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:44:49 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "username" on null
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\m...', 31)
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->index()
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:44:53 --> Attempt to read property "username" on null
+in APPPATH\Modules\Admin\Controllers\Login.php on line 31.
+ 1 APPPATH\Modules\Admin\Controllers\Login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'C:\\wamp64\\www\\modelo\\app\\Modules\\Admin\\Controllers\\Login.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:44:53 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "username" on null
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\m...', 31)
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->index()
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:47:25 --> Attempt to read property "login_id" on null
+in APPPATH\Modules\Admin\Models\LoginModel.php on line 25.
+ 1 APPPATH\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "login_id" on null', 'C:\\wamp64\\www\\modelo\\app\\Modules\\Admin\\Models\\LoginModel.php', 25)
+ 2 APPPATH\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', '123')
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:47:25 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "login_id" on null
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\m...', 25)
+#1 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', '123')
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+#4 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:48:44 --> Attempt to read property "login_id" on null
+in APPPATH\Modules\Admin\Models\LoginModel.php on line 25.
+ 1 APPPATH\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "login_id" on null', 'C:\\wamp64\\www\\modelo\\app\\Modules\\Admin\\Models\\LoginModel.php', 25)
+ 2 APPPATH\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', '123')
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:48:44 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "login_id" on null
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\m...', 25)
+#1 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', '123')
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+#4 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:49:11 --> Call to undefined function App\Modules\Admin\Controllers\isLogged()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:49:11 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\isLogged()
+#0 C:\wamp64\www\modelo\system\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:49:39 --> Call to undefined function App\Modules\Admin\Controllers\isLogged()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:49:39 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\isLogged()
+#0 C:\wamp64\www\modelo\system\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:53:00 --> Call to undefined function App\Modules\Admin\Controllers\isLogged()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\modelo\\app\\Modules\\Admin\\Controllers\\Dashboard.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Admin\\Controllers\\Dashboard')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Admin\\Controllers\\Dashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Modules\\Admin\\Controllers\\Dashboard', true)
+ 6 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:53:00 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\isLogged()
+#0 C:\wamp64\www\modelo\system\Autoloader\Autoloader.php(306): include_once()
+#1 C:\wamp64\www\modelo\system\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\modelo\system\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Adm...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Adm...')
+#4 C:\wamp64\www\modelo\system\CodeIgniter.php(873): class_exists('\\App\\Modules\\Ad...', true)
+#5 C:\wamp64\www\modelo\system\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:53:37 --> Call to undefined function App\Modules\Admin\Controllers\isLogged()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:53:37 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\isLogged()
+#0 C:\wamp64\www\modelo\system\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:55:04 --> Call to undefined function App\Modules\Admin\Controllers\checa_login()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:55:04 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\checa_login()
+#0 C:\wamp64\www\modelo\system\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:55:05 --> Call to undefined function App\Modules\Admin\Controllers\checa_login()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:55:05 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\checa_login()
+#0 C:\wamp64\www\modelo\system\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:55:25 --> Call to undefined function App\Modules\Admin\Controllers\isLogged()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 29.
+ 1 APPPATH\Modules\Admin\Controllers\Dashboard.php(25): App\Modules\Admin\Controllers\Dashboard->checa_login()
+ 2 SYSTEMPATH\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:55:25 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\isLogged()
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Dashboard.php(25): App\Modules\Admin\Controllers\Dashboard->checa_login()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 03:55:26 --> Call to undefined function App\Modules\Admin\Controllers\isLogged()
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 29.
+ 1 APPPATH\Modules\Admin\Controllers\Dashboard.php(25): App\Modules\Admin\Controllers\Dashboard->checa_login()
+ 2 SYSTEMPATH\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 03:55:26 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Admin\Controllers\isLogged()
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Dashboard.php(25): App\Modules\Admin\Controllers\Dashboard->checa_login()
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(887): App\Modules\Admin\Controllers\Dashboard->__construct()
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 03:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 03:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 04:20:08 --> Attempt to read property "login_id" on null
+in APPPATH\Modules\Admin\Models\LoginModel.php on line 25.
+ 1 APPPATH\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "login_id" on null', 'C:\\wamp64\\www\\modelo\\app\\Modules\\Admin\\Models\\LoginModel.php', 25)
+ 2 APPPATH\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', '123')
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 04:20:08 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "login_id" on null
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\m...', 25)
+#1 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', '123')
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+#4 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 04:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 04:27:03 --> Attempt to read property "login_id" on null
+in APPPATH\Modules\Admin\Models\LoginModel.php on line 25.
+ 1 APPPATH\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "login_id" on null', 'C:\\wamp64\\www\\modelo\\app\\Modules\\Admin\\Models\\LoginModel.php', 25)
+ 2 APPPATH\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', '123')
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 04:27:03 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "login_id" on null
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\m...', 25)
+#1 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', '123')
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+#4 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 04:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 04:27:13 --> Attempt to read property "login_id" on null
+in APPPATH\Modules\Admin\Models\LoginModel.php on line 25.
+ 1 APPPATH\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "login_id" on null', 'C:\\wamp64\\www\\modelo\\app\\Modules\\Admin\\Models\\LoginModel.php', 25)
+ 2 APPPATH\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', '123')
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 04:27:13 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "login_id" on null
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\m...', 25)
+#1 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', '123')
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+#4 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 04:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 04:28:10 --> Attempt to read property "login_id" on null
+in APPPATH\Modules\Admin\Models\LoginModel.php on line 25.
+ 1 APPPATH\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "login_id" on null', 'C:\\wamp64\\www\\modelo\\app\\Modules\\Admin\\Models\\LoginModel.php', 25)
+ 2 APPPATH\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', '123')
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 04:28:10 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "login_id" on null
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\m...', 25)
+#1 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', '123')
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+#4 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 04:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 04:28:21 --> Attempt to read property "login_id" on null
+in APPPATH\Modules\Admin\Models\LoginModel.php on line 25.
+ 1 APPPATH\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "login_id" on null', 'C:\\wamp64\\www\\modelo\\app\\Modules\\Admin\\Models\\LoginModel.php', 25)
+ 2 APPPATH\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', 'qwe')
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 04:28:21 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "login_id" on null
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\m...', 25)
+#1 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', 'qwe')
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+#4 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 04:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-02-06 04:28:58 --> Attempt to read property "login_id" on null
+in APPPATH\Modules\Admin\Models\LoginModel.php on line 25.
+ 1 APPPATH\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "login_id" on null', 'C:\\wamp64\\www\\modelo\\app\\Modules\\Admin\\Models\\LoginModel.php', 25)
+ 2 APPPATH\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', 'aaa')
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 04:28:58 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "login_id" on null
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Models\LoginModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\m...', 25)
+#1 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', 'aaa')
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+#4 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-02-06 04:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-02-06 04:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.

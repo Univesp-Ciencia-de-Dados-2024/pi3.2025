@@ -1,0 +1,682 @@
+WARNING - 2025-05-09 11:33:47 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-09 11:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-09 11:33:58 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-09 11:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 11:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 12:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 12:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-09 12:52:29 --> Too few arguments to function App\Modules\Popular\DAO\DAOUsuarios::getCargo(), 0 passed in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php on line 94 and exactly 1 expected
+in APPPATH/Modules/Popular/DAO/DAOUsuarios.php on line 19.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(94): App\Modules\Popular\DAO\DAOUsuarios->getCargo()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-09 12:52:29 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ArgumentCountError
+Too few arguments to function App\Modules\Popular\DAO\DAOUsuarios::getCargo(), 0 passed in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php on line 94 and exactly 1 expected
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(94): App\Modules\Popular\DAO\DAOUsuarios->getCargo()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-09 12:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-09 12:53:51 --> Too few arguments to function App\Modules\Popular\DAO\DAOUsuarios::getCargo(), 0 passed in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php on line 94 and exactly 1 expected
+in APPPATH/Modules/Popular/DAO/DAOUsuarios.php on line 19.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(94): App\Modules\Popular\DAO\DAOUsuarios->getCargo()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-09 12:53:51 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ArgumentCountError
+Too few arguments to function App\Modules\Popular\DAO\DAOUsuarios::getCargo(), 0 passed in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php on line 94 and exactly 1 expected
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(94): App\Modules\Popular\DAO\DAOUsuarios->getCargo()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-09 12:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-09 12:53:53 --> Too few arguments to function App\Modules\Popular\DAO\DAOUsuarios::getCargo(), 0 passed in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php on line 94 and exactly 1 expected
+in APPPATH/Modules/Popular/DAO/DAOUsuarios.php on line 19.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(94): App\Modules\Popular\DAO\DAOUsuarios->getCargo()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-09 12:53:53 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ArgumentCountError
+Too few arguments to function App\Modules\Popular\DAO\DAOUsuarios::getCargo(), 0 passed in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php on line 94 and exactly 1 expected
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(94): App\Modules\Popular\DAO\DAOUsuarios->getCargo()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-09 12:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-09 12:53:54 --> Too few arguments to function App\Modules\Popular\DAO\DAOUsuarios::getCargo(), 0 passed in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php on line 94 and exactly 1 expected
+in APPPATH/Modules/Popular/DAO/DAOUsuarios.php on line 19.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(94): App\Modules\Popular\DAO\DAOUsuarios->getCargo()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-09 12:53:54 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ArgumentCountError
+Too few arguments to function App\Modules\Popular\DAO\DAOUsuarios::getCargo(), 0 passed in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php on line 94 and exactly 1 expected
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(94): App\Modules\Popular\DAO\DAOUsuarios->getCargo()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-09 12:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-09 12:53:54 --> Too few arguments to function App\Modules\Popular\DAO\DAOUsuarios::getCargo(), 0 passed in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php on line 94 and exactly 1 expected
+in APPPATH/Modules/Popular/DAO/DAOUsuarios.php on line 19.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(94): App\Modules\Popular\DAO\DAOUsuarios->getCargo()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-09 12:53:54 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ArgumentCountError
+Too few arguments to function App\Modules\Popular\DAO\DAOUsuarios::getCargo(), 0 passed in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php on line 94 and exactly 1 expected
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(94): App\Modules\Popular\DAO\DAOUsuarios->getCargo()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-09 12:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-09 12:54:04 --> Too few arguments to function App\Modules\Popular\DAO\DAOUsuarios::getCargo(), 0 passed in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php on line 94 and exactly 1 expected
+in APPPATH/Modules/Popular/DAO/DAOUsuarios.php on line 19.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(94): App\Modules\Popular\DAO\DAOUsuarios->getCargo()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-09 12:54:04 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ArgumentCountError
+Too few arguments to function App\Modules\Popular\DAO\DAOUsuarios::getCargo(), 0 passed in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php on line 94 and exactly 1 expected
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(94): App\Modules\Popular\DAO\DAOUsuarios->getCargo()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-09 12:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-09 12:54:04 --> Too few arguments to function App\Modules\Popular\DAO\DAOUsuarios::getCargo(), 0 passed in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php on line 94 and exactly 1 expected
+in APPPATH/Modules/Popular/DAO/DAOUsuarios.php on line 19.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(94): App\Modules\Popular\DAO\DAOUsuarios->getCargo()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-09 12:54:04 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ArgumentCountError
+Too few arguments to function App\Modules\Popular\DAO\DAOUsuarios::getCargo(), 0 passed in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php on line 94 and exactly 1 expected
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(94): App\Modules\Popular\DAO\DAOUsuarios->getCargo()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-09 12:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 12:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 12:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-09 12:57:56 --> Call to undefined method App\Modules\Popular\DAO\DAOUsuarios::getCargo()
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 94.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-09 12:57:56 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined method App\Modules\Popular\DAO\DAOUsuarios::getCargo()
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-09 12:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-09 12:58:24 --> Array to string conversion
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 94.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-09 12:58:24 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-09 12:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-09 12:58:26 --> Array to string conversion
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 94.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-09 12:58:26 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-09 12:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-09 12:58:27 --> Array to string conversion
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 94.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-09 12:58:27 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-09 12:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-09 12:58:27 --> Array to string conversion
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 94.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-09 12:58:27 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-09 12:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-09 12:58:28 --> Array to string conversion
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 94.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-09 12:58:28 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-09 12:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 13:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 13:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 13:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 13:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-09 13:06:43 --> Undefined property: stdClass::$id
+in APPPATH/Views/popular/users/list.php on line 62.
+ 1 APPPATH/Views/popular/users/list.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/popular/users/list.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Modules/Popular/Controllers/Usuarios.php(89): view()
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-09 13:06:43 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: stdClass::$id
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/popular/users/list.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/View/View.php(226): include('/home/u88381289...')
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Common.php(1178): CodeIgniter\View\View->render()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(89): view()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#6 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#7 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-09 13:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 13:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 13:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 13:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 13:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-09 13:16:09 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 40.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-09 13:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 13:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 13:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 13:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 13:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 18:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-09 18:38:14 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 40.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-09 18:38:14 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-09 18:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-09 18:39:03 --> Attempt to read property "email" on null
+in APPPATH/Modules/Popular/Controllers/Dashboard.php on line 38.
+ 1 APPPATH/Modules/Popular/Controllers/Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-09 18:39:03 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "email" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+WARNING - 2025-05-09 18:39:12 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-09 18:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-09 18:39:15 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-09 18:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-09 18:39:27 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-09 18:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 18:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 18:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 18:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 18:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 18:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 18:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 19:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-09 19:06:04 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-09 19:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-09 19:06:22 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-09 19:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 19:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-09 19:06:22 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Modules/Popular/DAO/DAOPauta.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-09 19:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-09 19:08:09 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-09 19:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-09 19:08:20 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-09 19:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 19:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 19:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-09 19:12:43 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-09 19:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-09 19:12:55 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-09 19:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 19:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 19:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-09 19:34:33 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-09 19:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-09 19:34:43 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-09 19:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 19:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 19:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-09 19:36:13 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-09 19:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-09 19:36:25 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-09 19:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 19:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 19:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 19:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-09 19:44:12 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 40.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-09 19:44:12 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-09 19:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-09 19:44:23 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 40.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-09 19:44:23 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+WARNING - 2025-05-09 19:44:33 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-09 19:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-09 19:44:42 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-09 19:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-09 19:44:55 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-09 19:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 19:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 19:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-09 19:45:25 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-09 19:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-09 19:45:41 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-09 19:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 19:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 19:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 19:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 19:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-09 19:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.

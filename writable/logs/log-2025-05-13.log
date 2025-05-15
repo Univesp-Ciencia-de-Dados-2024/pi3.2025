@@ -1,0 +1,723 @@
+INFO - 2025-05-13 11:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 11:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-13 11:14:48 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 40.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-13 11:14:48 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+WARNING - 2025-05-13 11:15:01 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 11:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 11:15:20 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 11:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 11:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 11:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-13 11:16:53 --> Undefined array key "id_inscricao"
+in APPPATH/Modules/Popular/DAO/DAOUsuarios.php on line 21.
+ 1 APPPATH/Modules/Popular/DAO/DAOUsuarios.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Modules/Popular/Controllers/Usuarios.php(101): App\Modules\Popular\DAO\DAOUsuarios->setVotacao()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->votacao()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-13 11:16:53 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined array key "id_inscricao"
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/DAO/DAOUsuarios.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(101): App\Modules\Popular\DAO\DAOUsuarios->setVotacao()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->votacao()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-13 11:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 11:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 11:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 11:36:23 --> [DEPRECATED] Creation of dynamic property App\Modules\Admin\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Admin/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Admin\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 11:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 11:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 11:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 11:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 11:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 11:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 11:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 11:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 11:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 11:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2025-05-13 12:14:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_materia not in ( select id_materia from votacao v where id_materia = v.id_...' at line 1 in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/DAO/DAOUsuarios.php(11): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(89): App\Modules\Popular\DAO\DAOUsuarios->findMaterias()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#6 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#7 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-05-13 12:14:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_materia not in ( select id_materia from votacao v where id_materia = v.id_...' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Modules/Popular/DAO/DAOUsuarios.php(11): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Modules/Popular/Controllers/Usuarios.php(89): App\Modules\Popular\DAO\DAOUsuarios->findMaterias()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-13 12:14:23 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Database\Exceptions\DatabaseException
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_materia not in ( select id_materia from votacao v where id_materia = v.id_...' at line 1
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/DAO/DAOUsuarios.php(11): CodeIgniter\Database\BaseConnection->query()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(89): App\Modules\Popular\DAO\DAOUsuarios->findMaterias()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-13 12:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2025-05-13 12:15:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_materia not in ( select id_materia from votacao v where id_materia = v.id_...' at line 1 in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/DAO/DAOUsuarios.php(11): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(89): App\Modules\Popular\DAO\DAOUsuarios->findMaterias()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#6 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#7 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-05-13 12:15:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_materia not in ( select id_materia from votacao v where id_materia = v.id_...' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Modules/Popular/DAO/DAOUsuarios.php(11): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Modules/Popular/Controllers/Usuarios.php(89): App\Modules\Popular\DAO\DAOUsuarios->findMaterias()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-13 12:15:06 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Database\Exceptions\DatabaseException
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_materia not in ( select id_materia from votacao v where id_materia = v.id_...' at line 1
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/DAO/DAOUsuarios.php(11): CodeIgniter\Database\BaseConnection->query()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(89): App\Modules\Popular\DAO\DAOUsuarios->findMaterias()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-13 12:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2025-05-13 12:15:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_materia not in ( select id_materia from votacao v where id_materia = v.id_...' at line 1 in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/DAO/DAOUsuarios.php(11): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(89): App\Modules\Popular\DAO\DAOUsuarios->findMaterias()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#6 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#7 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-05-13 12:15:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_materia not in ( select id_materia from votacao v where id_materia = v.id_...' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Modules/Popular/DAO/DAOUsuarios.php(11): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Modules/Popular/Controllers/Usuarios.php(89): App\Modules\Popular\DAO\DAOUsuarios->findMaterias()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-13 12:15:08 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Database\Exceptions\DatabaseException
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_materia not in ( select id_materia from votacao v where id_materia = v.id_...' at line 1
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/DAO/DAOUsuarios.php(11): CodeIgniter\Database\BaseConnection->query()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(89): App\Modules\Popular\DAO\DAOUsuarios->findMaterias()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-13 12:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2025-05-13 12:15:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_materia not in ( select id_materia from votacao v where id_materia = v.id_...' at line 1 in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/DAO/DAOUsuarios.php(11): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(89): App\Modules\Popular\DAO\DAOUsuarios->findMaterias()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#6 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#7 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-05-13 12:15:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_materia not in ( select id_materia from votacao v where id_materia = v.id_...' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Modules/Popular/DAO/DAOUsuarios.php(11): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Modules/Popular/Controllers/Usuarios.php(89): App\Modules\Popular\DAO\DAOUsuarios->findMaterias()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-13 12:15:08 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Database\Exceptions\DatabaseException
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_materia not in ( select id_materia from votacao v where id_materia = v.id_...' at line 1
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/DAO/DAOUsuarios.php(11): CodeIgniter\Database\BaseConnection->query()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(89): App\Modules\Popular\DAO\DAOUsuarios->findMaterias()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-13 12:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2025-05-13 12:15:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_materia not in ( select id_materia from votacao v where id_materia = v.id_...' at line 1 in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/DAO/DAOUsuarios.php(11): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(89): App\Modules\Popular\DAO\DAOUsuarios->findMaterias()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#6 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#7 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-05-13 12:15:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_materia not in ( select id_materia from votacao v where id_materia = v.id_...' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Modules/Popular/DAO/DAOUsuarios.php(11): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Modules/Popular/Controllers/Usuarios.php(89): App\Modules\Popular\DAO\DAOUsuarios->findMaterias()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-13 12:15:21 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Database\Exceptions\DatabaseException
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_materia not in ( select id_materia from votacao v where id_materia = v.id_...' at line 1
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/DAO/DAOUsuarios.php(11): CodeIgniter\Database\BaseConnection->query()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(89): App\Modules\Popular\DAO\DAOUsuarios->findMaterias()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-13 12:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2025-05-13 12:16:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'm.id_materia not in ( select id_materia from votacao v where m.id_materia = v...' at line 1 in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/DAO/DAOUsuarios.php(11): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(89): App\Modules\Popular\DAO\DAOUsuarios->findMaterias()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#6 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#7 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-05-13 12:16:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'm.id_materia not in ( select id_materia from votacao v where m.id_materia = v...' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Modules/Popular/DAO/DAOUsuarios.php(11): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Modules/Popular/Controllers/Usuarios.php(89): App\Modules\Popular\DAO\DAOUsuarios->findMaterias()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-13 12:16:05 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Database\Exceptions\DatabaseException
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'm.id_materia not in ( select id_materia from votacao v where m.id_materia = v...' at line 1
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/DAO/DAOUsuarios.php(11): CodeIgniter\Database\BaseConnection->query()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(89): App\Modules\Popular\DAO\DAOUsuarios->findMaterias()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-13 12:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 12:25:55 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 12:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 12:26:52 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 12:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 12:27:34 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 12:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 12:27:36 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 12:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 12:27:41 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 12:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 12:27:49 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 12:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 12:28:34 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 12:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 12:29:05 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 12:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 12:54:16 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 12:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 12:55:21 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 12:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 12:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-13 13:33:02 --> Undefined property: stdClass::$id_materia
+in APPPATH/Views/popular/index.php on line 53.
+ 1 APPPATH/Views/popular/index.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/popular/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Modules/Popular/Controllers/Dashboard.php(54): view()
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-13 13:33:02 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: stdClass::$id_materia
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/popular/index.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/View/View.php(226): include('/home/u88381289...')
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Common.php(1178): CodeIgniter\View\View->render()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Dashboard.php(54): view()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+#6 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#7 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-13 13:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 13:56:41 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 13:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 13:56:57 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 13:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 13:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 16:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-13 16:33:34 --> Attempt to read property "id" on null
+in APPPATH/Modules/Popular/Controllers/Dashboard.php on line 37.
+ 1 APPPATH/Modules/Popular/Controllers/Dashboard.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-13 16:33:34 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "id" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Dashboard.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+WARNING - 2025-05-13 16:33:43 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 16:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 16:33:56 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 16:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 16:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 16:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 16:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 16:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 16:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 16:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 16:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 16:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 16:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 17:02:59 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 17:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 17:03:19 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 17:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 17:23:33 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 17:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 17:23:49 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 17:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 17:33:35 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 17:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 17:33:45 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 17:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 17:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-13 18:10:31 --> Attempt to read property "id" on null
+in APPPATH/Modules/Popular/Controllers/Dashboard.php on line 37.
+ 1 APPPATH/Modules/Popular/Controllers/Dashboard.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-05-13 18:12:33 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 18:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-13 18:12:49 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-13 18:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-13 18:49:46 --> Undefined variable $action
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 115.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(115): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->resultado()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-13 18:49:46 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable $action
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(115): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->resultado()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-13 18:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 18:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 19:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-13 19:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.

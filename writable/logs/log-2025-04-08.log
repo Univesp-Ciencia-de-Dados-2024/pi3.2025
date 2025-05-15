@@ -1,0 +1,294 @@
+INFO - 2025-04-08 14:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-08 14:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-08 14:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-08 14:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-08 14:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-08 14:03:57 --> Attempt to read property "nome" on null
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 33.
+ 1 APPPATH\Modules\Admin\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on null', 'C:\\wamp64\\www\\sipap\\app\\Modules\\Admin\\Controllers\\Dashboard.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-08 14:03:57 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\sipap\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\sipap\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\sipap\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 C:\wamp64\www\sipap\app\Modules\Admin\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\wamp64\\www\\s...', 33)
+#1 C:\wamp64\www\sipap\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+#2 C:\wamp64\www\sipap\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+#3 C:\wamp64\www\sipap\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sipap\index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-08 14:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-08 14:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-08 14:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-08 14:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-08 14:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-08 18:56:51 --> Undefined array key "nome"
+in APPPATH\Modules\Land\DAO\DAOInscricao.php on line 13.
+ 1 APPPATH\Modules\Land\DAO\DAOInscricao.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\wamp64\\www\\sipap\\app\\Modules\\Land\\DAO\\DAOInscricao.php', 13)
+ 2 APPPATH\Modules\Land\Controllers\Home.php(21): App\Modules\Land\DAO\DAOInscricao->newRecord([])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Land\Controllers\Home->cadastrar()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Land\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-08 18:56:51 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\sipap\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\sipap\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\sipap\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined array key "nome"
+#0 C:\wamp64\www\sipap\app\Modules\Land\DAO\DAOInscricao.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\s...', 13)
+#1 C:\wamp64\www\sipap\app\Modules\Land\Controllers\Home.php(21): App\Modules\Land\DAO\DAOInscricao->newRecord(Array)
+#2 C:\wamp64\www\sipap\system\CodeIgniter.php(915): App\Modules\Land\Controllers\Home->cadastrar()
+#3 C:\wamp64\www\sipap\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Land\Controllers\Home))
+#4 C:\wamp64\www\sipap\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\sipap\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-08 18:59:18 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Modules\Land\Controllers\Home.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\sipap\\app\\Modules\\Land\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Land\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Land\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Modules\\Land\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-08 18:59:18 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\sipap\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\sipap\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\sipap\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#5 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\wamp64\www\sipap\system\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\sipap\system\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Lan...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Lan...')
+#3 C:\wamp64\www\sipap\system\CodeIgniter.php(873): class_exists('\\App\\Modules\\La...', true)
+#4 C:\wamp64\www\sipap\system\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+#5 C:\wamp64\www\sipap\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sipap\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-08 18:59:53 --> Class "App\Modules\Land\Controllers\DAOInscricao" not found
+in APPPATH\Modules\Land\Controllers\Home.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Land\Controllers\Home->cadastrar()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Land\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-08 18:59:53 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\sipap\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\sipap\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\sipap\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "App\Modules\Land\Controllers\DAOInscricao" not found
+#0 C:\wamp64\www\sipap\system\CodeIgniter.php(915): App\Modules\Land\Controllers\Home->cadastrar()
+#1 C:\wamp64\www\sipap\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Land\Controllers\Home))
+#2 C:\wamp64\www\sipap\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\sipap\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-08 19:00:22 --> Class "App\Modules\Land\Controllers\DAOInscricao" not found
+in APPPATH\Modules\Land\Controllers\Home.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Land\Controllers\Home->cadastrar()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Land\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-08 19:00:22 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\sipap\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\sipap\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\sipap\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "App\Modules\Land\Controllers\DAOInscricao" not found
+#0 C:\wamp64\www\sipap\system\CodeIgniter.php(915): App\Modules\Land\Controllers\Home->cadastrar()
+#1 C:\wamp64\www\sipap\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Land\Controllers\Home))
+#2 C:\wamp64\www\sipap\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\sipap\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-08 19:03:24 --> Undefined array key "nome"
+in APPPATH\Modules\Land\DAO\DAOInscricao.php on line 13.
+ 1 APPPATH\Modules\Land\DAO\DAOInscricao.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\wamp64\\www\\sipap\\app\\Modules\\Land\\DAO\\DAOInscricao.php', 13)
+ 2 APPPATH\Modules\Land\Controllers\Home.php(21): App\Modules\Land\DAO\DAOInscricao->newRecord([])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Land\Controllers\Home->cadastrar()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Land\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-08 19:03:24 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\sipap\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\sipap\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\sipap\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined array key "nome"
+#0 C:\wamp64\www\sipap\app\Modules\Land\DAO\DAOInscricao.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\s...', 13)
+#1 C:\wamp64\www\sipap\app\Modules\Land\Controllers\Home.php(21): App\Modules\Land\DAO\DAOInscricao->newRecord(Array)
+#2 C:\wamp64\www\sipap\system\CodeIgniter.php(915): App\Modules\Land\Controllers\Home->cadastrar()
+#3 C:\wamp64\www\sipap\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Land\Controllers\Home))
+#4 C:\wamp64\www\sipap\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\sipap\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-08 19:08:13 --> Undefined array key "nome"
+in APPPATH\Modules\Land\DAO\DAOInscricao.php on line 13.
+ 1 APPPATH\Modules\Land\DAO\DAOInscricao.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\wamp64\\www\\sipap\\app\\Modules\\Land\\DAO\\DAOInscricao.php', 13)
+ 2 APPPATH\Modules\Land\Controllers\Home.php(21): App\Modules\Land\DAO\DAOInscricao->newRecord([])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Land\Controllers\Home->cadastrar()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Land\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-08 19:08:13 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\sipap\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\sipap\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\sipap\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined array key "nome"
+#0 C:\wamp64\www\sipap\app\Modules\Land\DAO\DAOInscricao.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\s...', 13)
+#1 C:\wamp64\www\sipap\app\Modules\Land\Controllers\Home.php(21): App\Modules\Land\DAO\DAOInscricao->newRecord(Array)
+#2 C:\wamp64\www\sipap\system\CodeIgniter.php(915): App\Modules\Land\Controllers\Home->cadastrar()
+#3 C:\wamp64\www\sipap\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Land\Controllers\Home))
+#4 C:\wamp64\www\sipap\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\sipap\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-08 19:13:46 --> Undefined array key "nome"
+in APPPATH\Modules\Land\DAO\DAOInscricao.php on line 13.
+ 1 APPPATH\Modules\Land\DAO\DAOInscricao.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\wamp64\\www\\sipap\\app\\Modules\\Land\\DAO\\DAOInscricao.php', 13)
+ 2 APPPATH\Modules\Land\Controllers\Home.php(21): App\Modules\Land\DAO\DAOInscricao->newRecord([])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Land\Controllers\Home->cadastrar()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Land\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-08 19:13:46 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\sipap\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\sipap\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\sipap\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined array key "nome"
+#0 C:\wamp64\www\sipap\app\Modules\Land\DAO\DAOInscricao.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\s...', 13)
+#1 C:\wamp64\www\sipap\app\Modules\Land\Controllers\Home.php(21): App\Modules\Land\DAO\DAOInscricao->newRecord(Array)
+#2 C:\wamp64\www\sipap\system\CodeIgniter.php(915): App\Modules\Land\Controllers\Home->cadastrar()
+#3 C:\wamp64\www\sipap\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Land\Controllers\Home))
+#4 C:\wamp64\www\sipap\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\sipap\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-08 19:14:18 --> Undefined array key "nome"
+in APPPATH\Modules\Land\DAO\DAOInscricao.php on line 13.
+ 1 APPPATH\Modules\Land\DAO\DAOInscricao.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\wamp64\\www\\sipap\\app\\Modules\\Land\\DAO\\DAOInscricao.php', 13)
+ 2 APPPATH\Modules\Land\Controllers\Home.php(21): App\Modules\Land\DAO\DAOInscricao->newRecord([...])
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Land\Controllers\Home->cadastrar()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Land\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-08 19:14:18 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\sipap\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\sipap\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\sipap\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined array key "nome"
+#0 C:\wamp64\www\sipap\app\Modules\Land\DAO\DAOInscricao.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\s...', 13)
+#1 C:\wamp64\www\sipap\app\Modules\Land\Controllers\Home.php(21): App\Modules\Land\DAO\DAOInscricao->newRecord(Array)
+#2 C:\wamp64\www\sipap\system\CodeIgniter.php(915): App\Modules\Land\Controllers\Home->cadastrar()
+#3 C:\wamp64\www\sipap\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Land\Controllers\Home))
+#4 C:\wamp64\www\sipap\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\sipap\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-08 19:16:13 --> Invalid file: "land/sucesso.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('land/sucesso.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('land/sucesso', [], true)
+ 3 APPPATH\Modules\Land\Controllers\Home.php(25): view('land/sucesso', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Land\Controllers\Home->cadastrar()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Land\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-08 19:16:13 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\sipap\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\sipap\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\View\Exceptions\ViewException), 500, 'C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\sipap\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\View\Exceptions\ViewException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\View\Exceptions\ViewException
+Invalid file: "land/sucesso.php"
+#0 C:\wamp64\www\sipap\system\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('land/sucesso.ph...')
+#1 C:\wamp64\www\sipap\system\Common.php(1178): CodeIgniter\View\View->render('land/sucesso', Array, true)
+#2 C:\wamp64\www\sipap\app\Modules\Land\Controllers\Home.php(25): view('land/sucesso', Array)
+#3 C:\wamp64\www\sipap\system\CodeIgniter.php(915): App\Modules\Land\Controllers\Home->cadastrar()
+#4 C:\wamp64\www\sipap\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Land\Controllers\Home))
+#5 C:\wamp64\www\sipap\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sipap\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

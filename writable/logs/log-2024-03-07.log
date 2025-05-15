@@ -1,0 +1,222 @@
+INFO - 2024-03-07 19:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-03-07 19:47:13 --> Class "App\Modules\Admin\Models\LoginModel" not found
+in APPPATH\Modules\Admin\Controllers\Login.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Modules\Admin\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 19:47:13 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\escolar\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\escolar\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\escolar\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\escolar\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\e...')
+#3 C:\wamp64\www\escolar\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "App\Modules\Admin\Models\LoginModel" not found
+#0 C:\wamp64\www\escolar\system\CodeIgniter.php(887): App\Modules\Admin\Controllers\Login->__construct()
+#1 C:\wamp64\www\escolar\system\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\escolar\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\escolar\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-07 19:47:20 --> Class "App\Modules\Admin\Models\LoginModel" not found
+in APPPATH\Modules\Admin\Controllers\Login.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Modules\Admin\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 19:47:20 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\escolar\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\escolar\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\escolar\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\escolar\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\e...')
+#3 C:\wamp64\www\escolar\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "App\Modules\Admin\Models\LoginModel" not found
+#0 C:\wamp64\www\escolar\system\CodeIgniter.php(887): App\Modules\Admin\Controllers\Login->__construct()
+#1 C:\wamp64\www\escolar\system\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\escolar\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\escolar\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-07 19:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-07 19:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-07 19:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-07 19:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-07 19:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-07 19:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-03-07 19:50:30 --> Call to undefined method App\Modules\Admin\Models\LoginModel::login
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Modules\Admin\Controllers\Login.php(29): CodeIgniter\Model->__call('login', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 19:50:30 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\escolar\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\escolar\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\escolar\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\escolar\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(BadMethodCallException), 500, 'C:\\wamp64\\www\\e...')
+#3 C:\wamp64\www\escolar\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(BadMethodCallException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(BadMethodCallException))
+#5 {main}
+  thrown
+【Previous Exception】
+BadMethodCallException
+Call to undefined method App\Modules\Admin\Models\LoginModel::login
+#0 C:\wamp64\www\escolar\app\Modules\Admin\Controllers\Login.php(29): CodeIgniter\Model->__call('login', Array)
+#1 C:\wamp64\www\escolar\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+#2 C:\wamp64\www\escolar\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+#3 C:\wamp64\www\escolar\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\escolar\index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-07 19:53:42 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Modules\Admin\Controllers\Login.php on line 39.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\escolar\\app\\Modules\\Admin\\Controllers\\Login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Admin\\Controllers\\Login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Admin\\Controllers\\Login')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Modules\\Admin\\Controllers\\Login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 19:53:42 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\escolar\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\escolar\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\escolar\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\escolar\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ParseError), 500, 'C:\\wamp64\\www\\e...')
+#3 C:\wamp64\www\escolar\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ParseError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#5 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\wamp64\www\escolar\system\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\e...')
+#1 C:\wamp64\www\escolar\system\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Adm...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Adm...')
+#3 C:\wamp64\www\escolar\system\CodeIgniter.php(873): class_exists('\\App\\Modules\\Ad...', true)
+#4 C:\wamp64\www\escolar\system\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+#5 C:\wamp64\www\escolar\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\escolar\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-07 19:53:56 --> Class "App\Modules\Admin\Controllers\LoginModel" not found
+in APPPATH\Modules\Admin\Controllers\Login.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Modules\Admin\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 19:53:56 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\escolar\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\escolar\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\escolar\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\escolar\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\e...')
+#3 C:\wamp64\www\escolar\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "App\Modules\Admin\Controllers\LoginModel" not found
+#0 C:\wamp64\www\escolar\system\CodeIgniter.php(887): App\Modules\Admin\Controllers\Login->__construct()
+#1 C:\wamp64\www\escolar\system\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\escolar\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\escolar\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-07 19:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-03-07 19:58:46 --> Class "App\Modules\Admin\DAO\DAOLogin" not found
+in APPPATH\Modules\Admin\Controllers\Login.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Modules\Admin\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 19:58:46 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\escolar\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\escolar\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\escolar\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\escolar\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\e...')
+#3 C:\wamp64\www\escolar\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "App\Modules\Admin\DAO\DAOLogin" not found
+#0 C:\wamp64\www\escolar\system\CodeIgniter.php(887): App\Modules\Admin\Controllers\Login->__construct()
+#1 C:\wamp64\www\escolar\system\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\escolar\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\escolar\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-07 19:59:29 --> Class "App\Modules\Admin\DAO\DAOLogin" not found
+in APPPATH\Modules\Admin\Controllers\Login.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Modules\Admin\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 19:59:29 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\escolar\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\escolar\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\escolar\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\escolar\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\wamp64\\www\\e...')
+#3 C:\wamp64\www\escolar\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "App\Modules\Admin\DAO\DAOLogin" not found
+#0 C:\wamp64\www\escolar\system\CodeIgniter.php(887): App\Modules\Admin\Controllers\Login->__construct()
+#1 C:\wamp64\www\escolar\system\CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\escolar\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\escolar\index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-07 20:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-03-07 20:00:27 --> Too few arguments to function App\Modules\Admin\DAO\DAOLogin::login(), 0 passed in C:\wamp64\www\escolar\app\Modules\Admin\Controllers\Login.php on line 30 and exactly 2 expected
+in APPPATH\Modules\Admin\DAO\DAOLogin.php on line 20.
+ 1 APPPATH\Modules\Admin\Controllers\Login.php(30): App\Modules\Admin\DAO\DAOLogin->login()
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-07 20:00:27 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\escolar\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\escolar\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\escolar\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\escolar\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ArgumentCountError), 500, 'C:\\wamp64\\www\\e...')
+#3 C:\wamp64\www\escolar\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ArgumentCountError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ArgumentCountError))
+#5 {main}
+  thrown
+【Previous Exception】
+ArgumentCountError
+Too few arguments to function App\Modules\Admin\DAO\DAOLogin::login(), 0 passed in C:\wamp64\www\escolar\app\Modules\Admin\Controllers\Login.php on line 30 and exactly 2 expected
+#0 C:\wamp64\www\escolar\app\Modules\Admin\Controllers\Login.php(30): App\Modules\Admin\DAO\DAOLogin->login()
+#1 C:\wamp64\www\escolar\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+#2 C:\wamp64\www\escolar\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+#3 C:\wamp64\www\escolar\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\escolar\index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-07 20:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-07 20:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-07 20:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.

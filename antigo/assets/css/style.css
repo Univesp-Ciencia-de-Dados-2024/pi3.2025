@@ -1,0 +1,110 @@
+/* assets/css/style.css */
+
+/* Variáveis de cores */
+:root {
+    --primary-color: #004a99;    /* Azul principal */
+    --secondary-color: #cc0000;  /* Vermelho institucional */
+    --light-color: #ffffff;      /* Branco */
+}
+
+/* Estilos gerais */
+body {
+    background-color: var(--light-color);
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+/* Navbar personalizada */
+.navbar {
+    background-color: var(--primary-color) !important;
+    border-bottom: 3px solid var(--secondary-color);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: var(--light-color) !important;
+}
+
+.nav-link {
+    color: rgba(255,255,255,0.8) !important;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--light-color) !important;
+    transform: translateY(-2px);
+}
+
+/* Cards de projetos */
+.card-projeto {
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.card-projeto:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+/* Botões */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #003366;
+    border-color: #003366;
+}
+
+.btn-danger {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    margin-top: auto;
+}
+
+.footer a {
+    color: var(--light-color);
+}
+
+/* Formulários */
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(0,74,153,0.25);
+}
+
+/* Badges de status */
+.badge-status {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    
+    .card-projeto {
+        margin-bottom: 1.5rem;
+    }
+}

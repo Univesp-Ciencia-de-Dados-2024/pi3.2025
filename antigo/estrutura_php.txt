@@ -1,0 +1,16 @@
+/
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── script.js
+├── includes/
+│   ├── conexao.php
+│   ├── header.php
+│   └── footer.php
+├── cadastro.php
+├── login.php
+├── projetos.php
+├── votar.php
+├── ver_votos.php
+└── logout.php

@@ -1,0 +1,292 @@
+INFO - 2024-03-05 19:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2024-03-05 19:09:47 --> mysqli_sql_exception: Table 'escolar.adm_login' doesn't exist in C:\wamp64\www\modelo\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\modelo\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\modelo\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\modelo\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\modelo\app\Modules\Admin\Models\LoginModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', 'admin')
+#6 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+#7 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+#8 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-05 19:09:47 --> Table 'escolar.adm_login' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `adm_login`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 2 APPPATH\Modules\Admin\Models\LoginModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', 'admin')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 19:09:47 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(mysqli_sql_exception), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(mysqli_sql_exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 8)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Database\Exceptions\DatabaseException
+Table 'escolar.adm_login' doesn't exist
+#0 C:\wamp64\www\modelo\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#1 C:\wamp64\www\modelo\app\Modules\Admin\Models\LoginModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#2 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', 'admin')
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+#4 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+#5 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-05 19:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2024-03-05 19:11:54 --> mysqli_sql_exception: Unknown column 'username' in 'where clause' in C:\wamp64\www\modelo\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\modelo\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\modelo\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\modelo\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\modelo\app\Modules\Admin\Models\LoginModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', 'admin')
+#6 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+#7 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+#8 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-05 19:11:54 --> Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 2 APPPATH\Modules\Admin\Models\LoginModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', 'admin')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 19:11:54 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(mysqli_sql_exception), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(mysqli_sql_exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 8)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Database\Exceptions\DatabaseException
+Unknown column 'username' in 'where clause'
+#0 C:\wamp64\www\modelo\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#1 C:\wamp64\www\modelo\app\Modules\Admin\Models\LoginModel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#2 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', 'admin')
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+#4 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+#5 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-05 19:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-03-05 19:12:23 --> Undefined property: stdClass::$login_id
+in APPPATH\Modules\Admin\Models\LoginModel.php on line 27.
+ 1 APPPATH\Modules\Admin\Models\LoginModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$login_id', 'C:\\wamp64\\www\\modelo\\app\\Modules\\Admin\\Models\\LoginModel.php', 27)
+ 2 APPPATH\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', 'admin')
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 19:12:23 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: stdClass::$login_id
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Models\LoginModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\wamp64\\www\\m...', 27)
+#1 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', 'admin')
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+#4 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-05 19:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-03-05 19:18:44 --> Undefined property: stdClass::$login_id
+in APPPATH\Modules\Admin\Models\LoginModel.php on line 27.
+ 1 APPPATH\Modules\Admin\Models\LoginModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$login_id', 'C:\\wamp64\\www\\modelo\\app\\Modules\\Admin\\Models\\LoginModel.php', 27)
+ 2 APPPATH\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', 'admin')
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 19:18:44 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: stdClass::$login_id
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Models\LoginModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\wamp64\\www\\m...', 27)
+#1 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', 'admin')
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+#4 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-05 19:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-03-05 19:36:27 --> Undefined property: stdClass::$username
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 33.
+ 1 APPPATH\Modules\Admin\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$username', 'C:\\wamp64\\www\\modelo\\app\\Modules\\Admin\\Controllers\\Dashboard.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 19:36:27 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: stdClass::$username
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\wamp64\\www\\m...', 33)
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-05 19:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+ERROR - 2024-03-05 19:43:32 --> mysqli_sql_exception: Table 'escolar.usuario' doesn't exist in C:\wamp64\www\modelo\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\modelo\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\modelo\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\modelo\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\modelo\app\Modules\Admin\Models\LoginModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', 'admin')
+#6 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+#7 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+#8 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-05 19:43:32 --> Table 'escolar.usuario' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Modules\Admin\Models\LoginModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', 'admin')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 19:43:32 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(mysqli_sql_exception), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(mysqli_sql_exception), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 8)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Database\Exceptions\DatabaseException
+Table 'escolar.usuario' doesn't exist
+#0 C:\wamp64\www\modelo\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#1 C:\wamp64\www\modelo\app\Modules\Admin\Models\LoginModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#2 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Login.php(29): App\Modules\Admin\Models\LoginModel->login('admin', 'admin')
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Login->login()
+#4 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Login))
+#5 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-05 19:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2024-03-05 19:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2024-03-05 19:43:47 --> Undefined property: stdClass::$login
+in APPPATH\Modules\Admin\Controllers\Dashboard.php on line 33.
+ 1 APPPATH\Modules\Admin\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$login', 'C:\\wamp64\\www\\modelo\\app\\Modules\\Admin\\Controllers\\Dashboard.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-05 19:43:47 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\modelo\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\modelo\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\modelo\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\modelo\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: stdClass::$login
+#0 C:\wamp64\www\modelo\app\Modules\Admin\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\wamp64\\www\\m...', 33)
+#1 C:\wamp64\www\modelo\system\CodeIgniter.php(915): App\Modules\Admin\Controllers\Dashboard->index()
+#2 C:\wamp64\www\modelo\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Admin\Controllers\Dashboard))
+#3 C:\wamp64\www\modelo\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\modelo\index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-05 19:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.

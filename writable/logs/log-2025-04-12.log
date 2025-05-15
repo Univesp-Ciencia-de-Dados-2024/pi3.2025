@@ -1,0 +1,1002 @@
+INFO - 2025-04-12 00:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 00:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 00:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 00:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 00:04:49 --> Undefined property: stdClass::$nome
+in APPPATH\Modules\Popular\Controllers\Dashboard.php on line 33.
+ 1 APPPATH\Modules\Popular\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nome', 'C:\\wamp64\\www\\sipap\\app\\Modules\\Popular\\Controllers\\Dashboard.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Popular\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 00:04:49 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\sipap\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\sipap\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\sipap\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: stdClass::$nome
+#0 C:\wamp64\www\sipap\app\Modules\Popular\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\wamp64\\www\\s...', 33)
+#1 C:\wamp64\www\sipap\system\CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+#2 C:\wamp64\www\sipap\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Popular\Controllers\Dashboard))
+#3 C:\wamp64\www\sipap\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sipap\index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 00:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 00:05:30 --> Undefined property: stdClass::$nome
+in APPPATH\Modules\Popular\Controllers\Dashboard.php on line 33.
+ 1 APPPATH\Modules\Popular\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nome', 'C:\\wamp64\\www\\sipap\\app\\Modules\\Popular\\Controllers\\Dashboard.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Popular\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 00:05:30 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\sipap\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\sipap\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\sipap\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: stdClass::$nome
+#0 C:\wamp64\www\sipap\app\Modules\Popular\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\wamp64\\www\\s...', 33)
+#1 C:\wamp64\www\sipap\system\CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+#2 C:\wamp64\www\sipap\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Popular\Controllers\Dashboard))
+#3 C:\wamp64\www\sipap\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sipap\index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 00:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 00:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 00:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 00:05:49 --> Undefined property: stdClass::$nome
+in APPPATH\Modules\Popular\Controllers\Dashboard.php on line 33.
+ 1 APPPATH\Modules\Popular\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nome', 'C:\\wamp64\\www\\sipap\\app\\Modules\\Popular\\Controllers\\Dashboard.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Popular\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 00:05:49 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\sipap\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\sipap\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\sipap\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: stdClass::$nome
+#0 C:\wamp64\www\sipap\app\Modules\Popular\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\wamp64\\www\\s...', 33)
+#1 C:\wamp64\www\sipap\system\CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+#2 C:\wamp64\www\sipap\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Popular\Controllers\Dashboard))
+#3 C:\wamp64\www\sipap\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sipap\index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 00:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 00:15:11 --> Undefined property: stdClass::$nome
+in APPPATH\Modules\Popular\Controllers\Dashboard.php on line 33.
+ 1 APPPATH\Modules\Popular\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nome', 'C:\\wamp64\\www\\sipap\\app\\Modules\\Popular\\Controllers\\Dashboard.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Popular\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 00:15:11 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\wamp64\www\sipap\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(241): include()
+#1 C:\wamp64\www\sipap\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\sipap\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\sipap\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: stdClass::$nome
+#0 C:\wamp64\www\sipap\app\Modules\Popular\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\wamp64\\www\\s...', 33)
+#1 C:\wamp64\www\sipap\system\CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+#2 C:\wamp64\www\sipap\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Modules\Popular\Controllers\Dashboard))
+#3 C:\wamp64\www\sipap\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sipap\index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 00:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 00:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 00:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 00:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 00:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 00:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 00:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 00:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 00:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 00:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 00:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 17:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 17:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 17:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 17:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 17:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 17:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 18:44:22 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 18:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 18:46:16 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 18:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 18:46:22 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 18:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 18:46:23 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 18:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 18:46:30 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 18:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 18:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 18:47:25 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 18:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 18:47:33 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 18:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 18:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 18:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 18:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 18:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 18:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 18:55:45 --> Call to undefined function App\Modules\Popular\Controllers\isLogged()
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 18:55:45 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Popular\Controllers\isLogged()
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 19:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 19:09:25 --> Call to undefined function App\Modules\Popular\Controllers\isLogged()
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 19:09:25 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Popular\Controllers\isLogged()
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 19:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 19:09:27 --> Call to undefined function App\Modules\Popular\Controllers\isLogged()
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 19:09:27 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Popular\Controllers\isLogged()
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 19:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 19:09:28 --> Call to undefined function App\Modules\Popular\Controllers\isLogged()
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 19:09:28 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Popular\Controllers\isLogged()
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 19:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 19:09:34 --> Call to undefined function App\Modules\Popular\Controllers\isLogged()
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 19:09:34 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Popular\Controllers\isLogged()
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 19:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 19:11:55 --> Call to undefined function App\Modules\Popular\Controllers\isLogged()
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 19:11:55 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Popular\Controllers\isLogged()
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 19:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 19:11:56 --> Call to undefined function App\Modules\Popular\Controllers\isLogged()
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 19:11:56 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Popular\Controllers\isLogged()
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 19:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 19:11:57 --> Call to undefined function App\Modules\Popular\Controllers\isLogged()
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 19:11:57 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Popular\Controllers\isLogged()
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 19:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 19:11:57 --> Call to undefined function App\Modules\Popular\Controllers\isLogged()
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 19:11:57 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Popular\Controllers\isLogged()
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 19:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 19:12:08 --> Call to undefined function App\Modules\Popular\Controllers\isLogged()
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 19:12:08 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Popular\Controllers\isLogged()
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 19:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 19:12:32 --> Call to undefined function App\Modules\Popular\Controllers\isLogged()
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 19:12:32 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Popular\Controllers\isLogged()
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 19:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 19:12:42 --> Call to undefined function App\Modules\Popular\Controllers\isLogged()
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 19:12:42 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Popular\Controllers\isLogged()
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 19:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 19:13:26 --> Call to undefined function App\Modules\Popular\Controllers\isLogged()
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 19:13:26 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Popular\Controllers\isLogged()
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 19:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 19:13:27 --> Call to undefined function App\Modules\Popular\Controllers\isLogged()
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 19:13:27 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Popular\Controllers\isLogged()
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 19:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 19:13:29 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 19:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 19:13:41 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 19:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 19:13:51 --> Call to undefined function App\Modules\Popular\Controllers\isLogged()
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 19:13:51 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Call to undefined function App\Modules\Popular\Controllers\isLogged()
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-12 19:15:48 --> syntax error, unexpected token ";", expecting "function" or "const"
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 35.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(873): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 19:15:48 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token ";", expecting "function" or "const"
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(873): class_exists()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-12 19:16:38 --> syntax error, unexpected token ";", expecting "function" or "const"
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 35.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(873): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 19:16:38 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token ";", expecting "function" or "const"
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(873): class_exists()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-12 19:16:40 --> syntax error, unexpected token ";", expecting "function" or "const"
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 35.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(873): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 19:16:40 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token ";", expecting "function" or "const"
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(873): class_exists()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-12 19:16:40 --> syntax error, unexpected token ";", expecting "function" or "const"
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 35.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(873): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 19:16:40 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ParseError
+syntax error, unexpected token ";", expecting "function" or "const"
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(873): class_exists()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 19:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 19:18:22 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 19:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 19:18:28 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 19:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 19:18:32 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 19:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 19:18:52 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 19:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 19:18:59 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 19:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 19:27:57 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 19:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 19:29:24 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 19:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 19:29:31 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 19:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 19:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 19:29:50 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 19:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 19:30:28 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 19:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 19:31:45 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 19:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 21:31:48 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 21:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 21:32:03 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 21:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 21:32:13 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 21:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 21:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 21:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 21:32:18 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Dashboard.php on line 33.
+ 1 APPPATH/Modules/Popular/Controllers/Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 21:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 21:32:18 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Dashboard.php on line 33.
+ 1 APPPATH/Modules/Popular/Controllers/Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 21:32:18 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 21:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 21:32:18 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Dashboard.php on line 33.
+ 1 APPPATH/Modules/Popular/Controllers/Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 21:32:18 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 21:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 21:33:10 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 21:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 22:29:52 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 22:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 22:30:18 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 22:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 22:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 22:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 22:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 22:31:08 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 40.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 22:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 22:31:09 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 40.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 22:31:09 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-12 22:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-04-12 22:31:09 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 40.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-12 22:31:09 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+WARNING - 2025-04-12 22:32:53 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 22:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 23:45:51 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 23:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-04-12 23:45:56 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-12 23:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 23:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 23:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 23:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 23:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 23:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 23:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-04-12 23:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.

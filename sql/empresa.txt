@@ -1,0 +1,20 @@
+CREATE TABLE adm_empresas (
+  id INT NOT NULL AUTO_INCREMENT,
+  nome VARCHAR(255) NOT NULL,
+  cnpj VARCHAR(14) NOT NULL,
+  inscricao_estadual VARCHAR(15) NOT NULL,
+  telefone VARCHAR(20) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  endereco VARCHAR(255) NOT NULL,
+  numero INT NOT NULL,
+  complemento VARCHAR(255),
+  bairro VARCHAR(255) NOT NULL,
+  cidade VARCHAR(255) NOT NULL,
+  estado VARCHAR(2) NOT NULL,
+  cep VARCHAR(9) NOT NULL,
+  PRIMARY KEY (id)
+);
+
+
+INSERT INTO empresas (nome, cnpj, inscricao_estadual, telefone, email, endereco, numero, complemento, bairro, cidade, estado, cep)
+VALUES ('Escola ABC', '12345678901234', '98765432109876', '(11) 1234-5678', 'escolaabc@email.com', 'Rua São Paulo', 100, 'Sala 101', 'Centro', 'São Paulo', 'SP', '01234-567');
