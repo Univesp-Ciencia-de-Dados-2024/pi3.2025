@@ -9,7 +9,7 @@
             <form method="post" action="home/cadastrar" name="formulario" id="formulario">
             <input type="email" name="email" id="email" placeholder="Email" required>
     
-            <input type="password" name="password" id="password" placeholder="Digite uma Senha (minimo 8 caracteres)" minlength="8" required>
+            <input type="password" name="password" id="password" placeholder="Digite uma Senha (minimo 6 caracteres)" minlength="6" required>
     
             <input type="password" name="confirmacao" id="confirmacao" placeholder="Confirme a Senha" required oninput="this.setCustomValidity(this.value !== document.getElementById('password').value ? 'As senhas não coincidem' : '')">
     

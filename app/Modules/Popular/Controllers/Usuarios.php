@@ -31,13 +31,16 @@ class Usuarios extends BaseController
     public function usuarios($action = false, $id = 0)
     {
 
-	$username = session()->get('user')->nome ?? false;
+	$username = $this->session->get('user')->email ?? false;
 	$id_inscricao = session()->get('user')->id ?? 0;
+//var_dump(session()->get('user')->nome);
+//var_dump($username);
         if (!isset($username) && is_string($username)) {
+		echo('nao validou funcao');
             return redirect()->to('/popular/login');
         }
         $data = [
-            'username' => $this->session->get('user')->nome,
+            'username' => $this->session->get('user')->email,
 	    'id_inscricao' => $this->session->get('user')->id,
             'action' => $action,
             'id' => $id,
@@ -86,7 +89,7 @@ class Usuarios extends BaseController
             default:
             
                 $data['message'] = $this->session->getFlashData('message');
-                $data['record'] = $usuarioDAO->findMaterias(1,$id_inscricao);
+                $data['record'] = $usuarioDAO->findMaterias(2,$id_inscricao);
                 echo view('popular/users/list', $data);
                 break;
         }

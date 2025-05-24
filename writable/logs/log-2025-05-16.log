@@ -1,0 +1,1229 @@
+INFO - 2025-05-16 11:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:11:02 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 40.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:11:02 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:15:42 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 40.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:15:42 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:15:43 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 40.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:15:43 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:15:43 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 40.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:15:43 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:15:44 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 40.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:15:44 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:16:24 --> Attempt to read property "id" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 41.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:16:24 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "id" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:16:25 --> Attempt to read property "id" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 41.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:16:25 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "id" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:16:27 --> Attempt to read property "id" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 41.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:16:27 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "id" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:16:27 --> Attempt to read property "id" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 41.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:16:27 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "id" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:16:28 --> Attempt to read property "id" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 41.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:16:28 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "id" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:16:28 --> Attempt to read property "id" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 41.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:16:28 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "id" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:16:40 --> Attempt to read property "id" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 41.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:16:40 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "id" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:16:43 --> Attempt to read property "id" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 41.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:16:43 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "id" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:16:44 --> Attempt to read property "id" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 41.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:16:44 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "id" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:16:45 --> Attempt to read property "id" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 41.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:16:45 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "id" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:16:45 --> Attempt to read property "id" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 41.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:16:45 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "id" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:16:46 --> Attempt to read property "id" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 41.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:16:46 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "id" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:16:46 --> Attempt to read property "id" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 41.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:16:46 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "id" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:16:47 --> Attempt to read property "id" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 41.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:16:47 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "id" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:16:47 --> Attempt to read property "id" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 41.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:16:47 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "id" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:16:48 --> Attempt to read property "id" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 41.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:16:48 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "id" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:18:16 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 40.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:18:16 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:18:28 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 40.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:18:28 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:18:31 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 40.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:18:31 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:18:32 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 40.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:18:32 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:18:32 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 40.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:18:32 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:18:33 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 40.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:18:33 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:18:34 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 40.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:18:34 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:18:44 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 40.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:18:44 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:19:14 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 41.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:19:14 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:19:15 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 41.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:19:15 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:19:15 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 41.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:19:15 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:19:37 --> Attempt to read property "nome" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 42.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:19:37 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "nome" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:19:57 --> Undefined variable $id_inscricao
+in APPPATH/Views/popular/users/list.php on line 14.
+ 1 APPPATH/Views/popular/users/list.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/popular/users/list.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Modules/Popular/Controllers/Usuarios.php(92): view()
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:19:57 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable $id_inscricao
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/popular/users/list.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/View/View.php(226): include('/home/u88381289...')
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Common.php(1178): CodeIgniter\View\View->render()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(92): view()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#6 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#7 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:20:16 --> Undefined variable $id_inscricao
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 91.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(91): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:20:16 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable $id_inscricao
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(91): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:20:28 --> Undefined variable $id_inscricao
+in APPPATH/Views/popular/users/list.php on line 14.
+ 1 APPPATH/Views/popular/users/list.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/popular/users/list.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Modules/Popular/Controllers/Usuarios.php(92): view()
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:20:28 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable $id_inscricao
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/popular/users/list.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/View/View.php(226): include('/home/u88381289...')
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Common.php(1178): CodeIgniter\View\View->render()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(92): view()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#6 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#7 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:20:29 --> Undefined variable $id_inscricao
+in APPPATH/Views/popular/users/list.php on line 14.
+ 1 APPPATH/Views/popular/users/list.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/popular/users/list.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Modules/Popular/Controllers/Usuarios.php(92): view()
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:20:29 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable $id_inscricao
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/popular/users/list.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/View/View.php(226): include('/home/u88381289...')
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Common.php(1178): CodeIgniter\View\View->render()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(92): view()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#6 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#7 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 11:20:29 --> Undefined variable $id_inscricao
+in APPPATH/Views/popular/users/list.php on line 14.
+ 1 APPPATH/Views/popular/users/list.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/popular/users/list.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Modules/Popular/Controllers/Usuarios.php(92): view()
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 11:20:29 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable $id_inscricao
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/popular/users/list.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/View/View.php(226): include('/home/u88381289...')
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Common.php(1178): CodeIgniter\View\View->render()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(92): view()
+#5 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#6 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#7 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 11:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-16 11:21:40 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-16 11:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-16 11:21:49 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-16 11:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-16 11:24:04 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-16 11:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+WARNING - 2025-05-16 11:24:14 --> [DEPRECATED] Creation of dynamic property App\Modules\Popular\Controllers\Login::$DAOLogin is deprecated in APPPATH/Modules/Popular/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(887): App\Modules\Popular\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(483): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-16 11:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 11:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 12:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 12:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 12:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 12:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 13:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 13:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2025-05-16 15:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 15:29:29 --> Attempt to read property "email" on null
+in APPPATH/Modules/Popular/Controllers/Usuarios.php on line 43.
+ 1 APPPATH/Modules/Popular/Controllers/Usuarios.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 15:29:29 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "email" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Usuarios.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Usuarios->usuarios()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-05-16 19:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2025-05-16 19:27:47 --> Attempt to read property "id" on null
+in APPPATH/Modules/Popular/Controllers/Dashboard.php on line 37.
+ 1 APPPATH/Modules/Popular/Controllers/Dashboard.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-16 19:27:47 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(241): include()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/Debug/Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Attempt to read property "id" on null
+#0 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/app/Modules/Popular/Controllers/Dashboard.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(915): App\Modules\Popular\Controllers\Dashboard->index()
+#2 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#3 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u883812891/domains/hexadesenvolvimento.com.br/public_html/pi3/index.php(79): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

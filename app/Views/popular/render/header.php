@@ -13,7 +13,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Dashboard</title>
+    <title>Participação Popular</title>
 
     <!-- Custom fonts for this template-->
     <link href="/modelo/public/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -29,9 +29,9 @@
 
    <!-- acecssibilidade -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
-   <link rel="stylesheet" href="https://camarabatatais.com.br/src/icons/fontawesome5.9.0/css/all.css" />
-   <link rel="stylesheet" href="https://camarabatatais.com.br/src/css/default.css" />
-   <link rel="stylesheet" href="https://camarabatatais.com.br/src/css/asb.css" />
+   <link rel="stylesheet" href="https://camarabatatais.com.br/recursos/icons/fontawesome5.9.0/css/all.css" />
+   <link rel="stylesheet" href="https://camarabatatais.com.br/recursos/css/default.css" />
+   <link rel="stylesheet" href="https://camarabatatais.com.br/recursos/css/asb.css" />
 
 
 </head>
