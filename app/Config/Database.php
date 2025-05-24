@@ -27,9 +27,9 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
-        'username'     => 'u883812891_pi3',
-        'password'     => '#PIntegrador3',
-        'database'     => 'u883812891_pi3',
+        'username'     => '',
+        'password'     => '3',
+        'database'     => '',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
